@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@DiscriminatorValue("CC")
+@DiscriminatorValue("CA")
 @DiscriminatorColumn(name = "TYPE",length=4, discriminatorType = DiscriminatorType.STRING)
 @Data
 @AllArgsConstructor
